@@ -13,7 +13,8 @@ typedef struct {
 }CircQueue;
 
 CircQueue QueueInit(int size);
-void QueueDestroy(CircQueue Q);
+void QueueDestroy(CircQueue *Q);
 int QueueLength(CircQueue Q);
-int EnQueue(CircQueue Q, QElemType e);
-QElemType DeQueue(CircQueue Q);
+int EnQueue(CircQueue *Q, QElemType e);
+QElemType DeQueue(CircQueue *Q);
+int QueuePrint(CircQueue Q);
