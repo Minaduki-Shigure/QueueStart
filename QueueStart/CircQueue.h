@@ -5,7 +5,7 @@
 #include<memory.h>
 #include<conio.h>
 
-typedef char QElemType;
+typedef int QElemType;
 
 typedef struct {
 	QElemType *base;
