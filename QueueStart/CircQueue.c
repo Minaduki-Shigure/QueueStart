@@ -58,12 +58,13 @@ int QueuePrint(CircQueue Q)
 	{
 		if ((Q.rear + 1) % Q.size == Q.front)
 		{
-			printf("%d\n", Q.base[Q.front++]);
+			printf("%d\t", Q.base[Q.front++]);
 			continue;
 		}
 		if (Q.front == Q.rear)
 			break;
-		printf("%d\n", Q.base[Q.front++]);
+		printf("%d\t", Q.base[Q.front++]);
 	}
+	printf("\n");
 	return 0;
 }
