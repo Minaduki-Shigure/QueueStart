@@ -2,8 +2,10 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<memory.h>
+#include<conio.h>
 
-typedef int QElemType;
+typedef char QElemType;
 
 typedef struct {
 	QElemType *base;
