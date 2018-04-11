@@ -16,7 +16,7 @@ int main(void)
 		EnQueue(&Q1, buffer);
 		i++;
 	}
-	puts("Numbers sucessfully readed!");
+	puts("Numbers sucessfully loaded!");
 	puts("Please enter the value of k:");
 	scanf_s("%d", &k);
 	puts("Ready to start!");
