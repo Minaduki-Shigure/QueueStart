@@ -7,7 +7,7 @@ int main(void)
 	puts("Creating the queue, please enter the size of the queue:");
 	scanf_s("%d", &size);
 	CircQueue Q = QueueInit(size);
-	puts("Initializing the queue, please input the element of the queue one by one with a '$' as the end.");
+	puts("Initializing the queue, please input the elements of the queue one by one with a '$' as the end.");
 	while (1)
 	{
 		buffer = _getche();
